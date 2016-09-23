@@ -38,7 +38,7 @@ body {
 }
 
 #page5{
-	height: 1000px;
+	height: 100vh;
 	background-color: #3c824c;
 	background-image: url(door.jpg);
 	background-position: center;
