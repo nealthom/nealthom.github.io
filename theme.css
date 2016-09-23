@@ -76,7 +76,7 @@ body {
 }
 #pic{
 	position: absolute;
-	top: 320px;
+	top: calc(100% - 600px);
 	left:  calc(100% - 460px);
 	z-index: 400;
 	background-color: rgba(0, 0, 0, 0);
@@ -91,7 +91,7 @@ body {
 #outline{
 
 	position: absolute;
-	top: 600px;
+	top: 50%;
 	left: 300px;
 	z-index: 599;
 	width: 600px;
@@ -116,7 +116,7 @@ color: white;
 font-size: 1em;
 width: 600px;
 height: 100px;
-top: 610px;
+top: calc(50% + 10px);
 left: 310px;
 }
 
