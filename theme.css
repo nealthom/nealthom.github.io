@@ -78,7 +78,7 @@ body {
 	left:  calc(100% - 460px);
 	z-index: 1000;
 	background-color: rgba(0, 0, 0, 0);
-	background-image: url(me11.gif);
+	background-image: url(me11.png);
 	
 	height: 600px;
 	width: 460px;
