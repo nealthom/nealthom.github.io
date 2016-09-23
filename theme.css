@@ -76,7 +76,7 @@ body {
 	position: absolute;
 	top: 340px;
 	left:  calc(100% - 460px);
-	z-index: 1000;
+	z-index: 400;
 	background-color: rgba(0, 0, 0, 0);
 	background-image: url(me11.png);
 	
