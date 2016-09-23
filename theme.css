@@ -1,0 +1,110 @@
+body {
+   margin: 0;
+   padding: 0;
+  
+  background-image: url(garden.jpg);
+	background-position: center;
+    background-attachment: fixed;
+}
+
+#page1{
+	height: 1000px;
+	background-image: url(milky.jpg);
+	background-position: center;
+ 	}
+
+#page2{
+	height: 500px;
+	background-image: url(clouds.jpg);
+	background-position: center;
+	
+
+}
+
+#page3{
+	height: 800px;
+	background-image: url(house.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 400px;
+}
+
+#page5{
+	height: 1000px;
+	background-color: yellow;
+	background-image: url(door.jpg);
+	background-position: center;
+}
+#page6{
+	height: 500px;
+	background-color: yellow;
+	background-image: url(books.jpg);
+	background-position: center;
+   
+}
+#page7{
+	
+	height: 1000px;
+	background-color: yellow;
+	background-image: url(page.jpg);
+	background-position: center;
+}
+#nav{
+	z-index: 1001;
+	height: 90px;
+	width: 100%;
+	background-color: #E24E42;
+	position: fixed;
+	
+}
+.smooth{
+	position:absolute;
+
+}
+#pic{
+	position: relative;
+	top: -5px;
+	left: calc(100% - 430px);
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url(me11.png);
+	width: auto;
+	height: 600px;
+	background-repeat: no-repeat;
+	
+
+}
+#outline{
+
+	position: relative;
+	top: 350px;
+	left: 99px;
+	z-index: 599;
+	width: 600px;
+	height: 100px;
+	background-color: #008F95;
+	color: black;
+	border-color: white;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 5%;
+	
+	background-position: center;
+	background-size: 100% 100%;
+	
+	opacity:0.6;
+	
+	
+}
+#aboutme{
+position: relative;
+z-index: 600;
+color: black;
+font-size: 1em;
+width: 600px;
+height: 100px;
+top: 500px;
+left: 100px;
+}
+
+
