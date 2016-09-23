@@ -65,7 +65,7 @@ body {
 	position: relative;
 	top: -5px;
 	left: calc(100% - 430px);
-	z-index: 1000;
+	z-index: 500;
 	background-color: rgba(0, 0, 0, 0);
 	background-image: url(me11.png);
 	width: auto;
