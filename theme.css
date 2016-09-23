@@ -34,7 +34,6 @@ body {
 	background-image: url(house5.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-bottom: 200px;
 	background-size: 100% 100%;
 }
 
@@ -47,7 +46,7 @@ body {
 }
 #page6{
 	height: 500px;
-	background-color: yellow;
+
 	background-image: url(books.jpg);
 	background-position: center;
    
@@ -55,7 +54,7 @@ body {
 #page7{
 	
 	height: 1000px;
-	background-color: yellow;
+
 	background-image: url(page1.png);
 	background-position: center;
 	background-size: 100% 100%;
