@@ -75,7 +75,7 @@ body {
 }
 #pic{
 	position: absolute;
-	top: calc(100vh - 600px);
+	top: 320px;
 	left:  calc(100% - 460px);
 	z-index: 400;
 	background-color: rgba(0, 0, 0, 0);
