@@ -1,40 +1,49 @@
 body {
+
    margin: 0;
    padding: 0;
-  max-width: 100%;
-  background-image: url(garden.jpg);
-  background-attachment: fixed;
-  background-width: 100%;
- overflow-x:hidden;
+   max-width: 100%;
+  	background-image: url(garden.jpg);
+    background-attachment: fixed;
+	
+	
 }
 
 #page1{
+	
 	height: 1000px;
-	background-image: url(milky.jpg);
+	
+	background-image: url(milky1.png);
 	background-position: center;
+	background-size: 1000px 1000px;
  	}
 
 #page2{
 	height: 500px;
-	background-image: url(clouds.jpg);
+	background-image: url(clouds2.png);
 	background-position: center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
 	
 
 }
 
 #page3{
-	height: 800px;
+	position: relative;
+	height: 1000px;
 	background-image: url(house.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-bottom: 400px;
+	margin-bottom: 200px;
+	background-size: 100% 100%;
 }
 
 #page5{
 	height: 1000px;
-	background-color: yellow;
+	background-color: #3c824c;
 	background-image: url(door.jpg);
 	background-position: center;
+	background-size: 100% 100%;
 }
 #page6{
 	height: 500px;
@@ -47,8 +56,9 @@ body {
 	
 	height: 1000px;
 	background-color: yellow;
-	background-image: url(page.jpg);
+	background-image: url(page1.png);
 	background-position: center;
+	background-size: 100% 100%;
 }
 #nav{
 	z-index: 1001;
@@ -63,28 +73,28 @@ body {
 
 }
 #pic{
-	position: relative;
-	top: -5px;
-	left: calc(100% - 430px);
-	z-index: 500;
+	position: absolute;
+	top: 340px;
+	left:  calc(100% - 460px);
+	z-index: 1000;
 	background-color: rgba(0, 0, 0, 0);
-	background-image: url(me11.png);
-	width: auto;
+	background-image: url(me11.gif);
+	
 	height: 600px;
-	background-repeat: no-repeat;
+	width: 460px;
+	background-size: 100% 100%;
 	
 
 }
 #outline{
 
-	position: relative;
-	top: 350px;
-	left: 99px;
+	position: absolute;
+	top: 600px;
+	left: 400px;
 	z-index: 599;
 	width: 600px;
 	height: 100px;
 	background-color: #008F95;
-	color: black;
 	border-color: white;
 	border-style: solid;
 	border-width: 4px;
@@ -98,14 +108,13 @@ body {
 	
 }
 #aboutme{
-position: relative;
+position: absolute;
 z-index: 600;
-color: black;
+color: white;
 font-size: 1em;
 width: 600px;
 height: 100px;
-top: 500px;
-left: 100px;
+top: 610px;
+left: 410px;
 }
-
 
