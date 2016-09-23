@@ -90,7 +90,7 @@ body {
 
 	position: absolute;
 	top: 50%;
-	left: 300px;
+	left: 25%;
 	z-index: 599;
 	width: 600px;
 	height: 100px;
@@ -115,7 +115,7 @@ font-size: 1em;
 width: 600px;
 height: 100px;
 top: calc(50% + 10px);
-left: 310px;
+left: calc(25% + 10px);
 }
 
 a.anchor{
