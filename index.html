@@ -8,60 +8,47 @@
 <body>
 
 <div id="nav">
-	<ul>
-		
-		<li><a href="#portfolio">Portfolio</a></li>
-		<li><a href="#about">About</a></li>
-		<li><a href="#mission">Mission</a></li>
-		<li><a href="#contact">Contact</a></li>
+	<ul>		
+		<li id="nava"><a href="#about">About</a></li>
+		<li id="navp"><a href="#portfolio">Portfolio</a></li>
+		<li id="navc"><a href="#contact">Contact</a></li>
 	</ul>
-	
+	<div id="title">Thomas Neal</div>
 </div>
 
-
 <div id="page1">
-  <a class="anchor" id="portfolio" class="smooth"></a>
+  <a id="about" class="smooth"></a>
+	
+	<div id="aboutpic"></div>
+	<div id="abouttitle">I am a Stargazer.<br>Coder.<br>Nature Lover.</div>
+	<div id="aboutme">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
     
 </div>
 <div id="page2">
-  <a class="anchor" id="clouds" class="smooth"></a>
+  <a  id="portfolio" class="smooth"></a>
     
 </div>
  
 <div id="page3">
-  <a class="anchor" id="about" class="smooth"></a>
-	<div id="aboutme">Hi my name is Brandon and I have had a great day trying to build this website!</div>
-<div id="outline"></div> 
-    <div id="pic"></div> 
-	
+  <a  id="contact" class="smooth"></a>
+	<div id="pic"></div>
 </div>
  
 
-   
-</div>
-<div id="page5">
-  <a class="anchor" id="mission" class="smooth"></a>
-    
-</div>
-<div id="page6">
-  <a class="anchor" id="books" class="smooth"></a>    
-</div>
-<div id="page7">
-  <a class="anchor" id="contact" class="smooth"></a>
-    
-</div>
+ 
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
 <script>
-$("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
+//$("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
 $(document).on('click', 'a', function(event){
     event.preventDefault();
 
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 2000);
+    }, 1000);
 });
 </script>
 </body>
