@@ -4,7 +4,7 @@ body {
    padding: 0;
    max-width: 100%;
    background-color: white;
-  
+   font-family: 'Suez One', serif;
 	
 }
 
@@ -43,11 +43,11 @@ body {
 }
 #nav{
 	z-index: 1001;
-	height: 150px;
+	height: 14%;
 	width: 100%;
 	background-color: #18121E;
 	position: fixed;
-	top: calc(100% - 150px);
+	top: 86%;
   
 	color:white;
 	
@@ -67,13 +67,7 @@ a:visited{
 li{
 	list-style: none;
 }
-a.anchor{
-		display: block;
-    	position: relative;
-    	top: -200px;
-    	visibility: hidden;
 
-}
 
 #pic{
 	position: absolute;
@@ -81,7 +75,7 @@ a.anchor{
 	height: 666px;
 	background-image: url(me20.png);
 	background-size: 100% 100%;
-	top: 10%;
+	top: 5%;
 	left: 10%;
 
 
@@ -92,17 +86,18 @@ a.anchor{
 	height: 75%;
 	background-image: url(gazed.png);
 	background-size: 100% 100%;
-	top: 10%;
+	top: 5%;
 	
 
 }
 #aboutme{
 		position:absolute;
-		width: 604px;
-		height: 453 px;
-		top: 50%;
+		width: 43%;
+		height: 20%;
+		top: 40%;
 		left: 20%;
 		color: white;
+		font-size: 1.15em;
 		
 
 }
@@ -110,7 +105,7 @@ a.anchor{
 	position: absolute;
 	color: white;
 	font-size: 2em;
-	top: 20%;
+	top: 15%;
 	left: 40%;
 	text-align: center;
 }
@@ -149,218 +144,186 @@ a.anchor{
 }
 .it{
 	position: absolute;
-	top: 50%;
+	top: 30%;
 	left: 0;
 	display: inline-block;
-	width: 300px;
+	width: 20vw;
 	text-align: center;
+	font-size: 2em;
+	
+}
+.blocks{
+	position: absolute;
+	height: 20vw;
+	width: 20vw;
+	
 }
 #pi0{
-	position: absolute;
-	height: 300px;
-	width: 300px;
+
 	background-color: red;
 	color: white;
 	z-index: 200;
-	
+	top: 5vh;
+	left: 10vw;
 	
 }
 
 #i0{
-	position: absolute;
-	height: 300px;
-	width: 300px;
+	
+	
 	z-index: 199;
 	background-image:url("h.png");
-	
+	top:5vh;
+	left: 10vw;;
 }
 
 #pi1{
-	position: absolute;
-	height: 300px;
-	width: 300px;
+	
+	
 	background-color: blue;
 	color: white;
 	text-align: center;
-	top: 0;
-	left: 300px;
+	top: 5vh;
+	left: 30vw;
 	z-index: 200;
 	
 }
 
 #i1{
-	position: absolute;
-	height: 300px;
-	width: 300px;
+
+	
 	z-index: 199;
 	background-image:url("h.png");
-	top: 0;
-	left: 300px;
+	top: 5vh;
+	left: 30vw;
 	
 }
 
 #pi2{
-	position: absolute;
-	height: 300px;
-	width: 300px;
+	
+	
 	background-color: purple;
 	color: white;
 	text-align: center;
-	top: 0;
-	left: 600px;
+	top: 5vh;
+	left: 50vw;
 	z-index: 200;
 	
 }
 
 #i2{
-	position: absolute;
-	height: 300px;
-	width: 300px;
+	
+	
 	z-index: 199;
 	background-image:url("h.png");
-	top: 0;
-	left: 600px;
+	top: 5vh;
+	left: 50vw;
 	
 }
 #pi3{
-	position: absolute;
-	height: 300px;
-	width: 300px;
+	
+
 	background-color: green;
 	color: white;
 	text-align: center;
-	top: 300px;
-	left: 0;
+	top: calc( 20vw + 5vh);
+	left: 10vw;
 	z-index: 200;
 	
 }
 
 #i3{
-	position: absolute;
-	height: 300px;
-	width: 300px;
+	
+	
 	z-index: 199;
 	background-image:url("h.png");
-	top: 300px;
-	left: 0;
+	top: calc( 20vw + 5vh);
+	left: 10vw;
 	
 }
 
 #pi4{
 	position: absolute;
-	height: 300px;
-	width: 300px;
 	background-color: orange;
 	color: white;
 	text-align: center;
-	top: 300px;
-	left: 300px;
+	top: calc( 20vw + 5vh);
+	left: 30vw;
 	z-index: 200;
 	
 }
 
 #i4{
 	position: absolute;
-	height: 300px;
-	width: 300px;
+	
 	z-index: 199;
 	background-image:url("h.png");
-	top: 300px;
-	left: 300px;
+	top: calc( 20vw + 5vh);
+	left: 30vw;
 	
 }
 #pi5{
 	position: absolute;
-	height: 300px;
-	width: 300px;
+	
 	background-color: red;
 	color: white;
 	text-align: center;
-	top: 300px;
-	left: 600px;
+	top: calc( 20vw + 5vh);
+	left:50vw;
 	z-index: 200;
 	
 }
 
 #i5{
 	position: absolute;
-	height: 300px;
-	width: 300px;
+	
 	z-index: 199;
 	background-image:url("h.png");
-	top: 300px;
-	left: 600px;
+	top: calc( 20vw + 5vh);
+	left: 50vw;
 	
 }
 
 #pi6{
 	position: absolute;
-	height: 300px;
-	width: 300px;
+	
 	background-color: green;
 	color: white;
 	text-align: center;
-	top: 0;
-	left: 900px;
+	top: 5vh;
+	left: 70vw;
 	z-index: 200;
 	
 }
 
 #i6{
 	position: absolute;
-	height: 300px;
-	width: 300px;
+
 	z-index: 199;
 	background-image:url("h.png");
-	top:0;
-	left: 900px;
+	top:5vh;
+	left: 70vw;
 	
 }
 
 #pi7{
 	position: absolute;
-	height: 300px;
-	width: 300px;
+
 	background-color: blue;
 	color: white;
 	text-align: center;
-	top: 300px;
-	left: 900px;
+	top: calc( 20vw + 5vh);
+	left: 70vw;
 	z-index: 200;
 	
 }
 
 #i7{
 	position: absolute;
-	height: 300px;
-	width: 300px;
+	
 	z-index: 199;
 	background-image:url("h.png");
-	top:300px;
-	left: 900px;
+	top:calc( 20vw + 5vh);
+	left: 70vw;
 	
 }
-
-#pi8{
-	position: absolute;
-	height: 300px;
-	width: 300px;
-	background-color: black;
-	color: white;
-	text-align: center;
-	top:0;
-	left: 1200px;
-	z-index: 200;
-	
-}
-
-
-
-
-
-
-
-
-
-
-
