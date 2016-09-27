@@ -83,7 +83,7 @@ li{
 }
 #aboutpic{
 	position: absolute;
-	width: 1065px;
+	width: 100%;
 	height: 566px;
 	background-image: url(gazed.png);
 	background-size: 100% 100%;
