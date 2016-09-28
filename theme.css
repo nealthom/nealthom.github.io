@@ -1,4 +1,4 @@
-body {
+body,html {
 
    margin: 0;
    padding: 0;
@@ -6,15 +6,17 @@ body {
    max-height: 100vh;
    background-color: white;
    font-family: 'Suez One', serif;
+	height: 100%;
 	
 }
 
 #page1{
 	position:relative;
-	height: 100vh;
+	height: 100%;
 	background-color: white;
 	margin-left: 5%;
 	margin-right: 5%;
+	
 	
  	}
 
@@ -23,10 +25,11 @@ body {
 #page2{
 	
 	position: relative;
-	height: 100vh;	
+	height: 100%;	
 	background-size:  100% 100%;
 	background-color: white;
 	max-width: 100%;
+
 	
 	
 }
@@ -35,7 +38,7 @@ body {
 
 #page3{
 	position:relative;
-	height: 100vh;
+	height: 100%;
 	background-color: white;
 	
 	
@@ -92,7 +95,7 @@ a:hover,a:active{
 	height: 566px;
 	background-image: url(gazed.png);
 	background-size: 100% 100%;
-	top: 5%;
+	top: 10%;
 	left: 0;
 	
 
