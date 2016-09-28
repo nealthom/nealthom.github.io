@@ -123,11 +123,11 @@ a:hover,a:active{
 }
 #title{
 	position:absolute;
-	top: -25%;
-	left: 40%;
-	font-size: 2em;
+	top: -35%;
+	left: 0;
+	font-size: 3em;
 	background-color: red;
-	width: 15%;
+	width: 100%;
 	text-align: center;
 }
 #nava{
