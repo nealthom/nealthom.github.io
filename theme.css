@@ -118,8 +118,8 @@ a:hover,a:active{
 }
 #title{
 	position:absolute;
-	top: 40%;
-	left: 55%;
+	top: -25%;
+	left: 35%;
 	font-size: 3em;
 	background-color: red;
 	width: 25%;
@@ -128,18 +128,19 @@ a:hover,a:active{
 #nava{
 		position:absolute;
 		top:50%;
+		left: 20%;
 		font-size: 2em;
 	}
 #navp{
 		position:absolute;
 		top:50%;
-		left: 20%;
+		left: 45%;
 		font-size: 2em;
 	}
 #navc{
 		position:absolute;
 		top:50%;
-		left: 40%;
+		left: 70%;
 		font-size: 2em;
 	}
 
