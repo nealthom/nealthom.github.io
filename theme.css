@@ -66,8 +66,12 @@ a{
 a:visited{
 	color: white;
 	}
+a:active{color: red;}
 li{
 	list-style: none;
+}
+a:hover,a:active{
+ color:red;
 }
 
 
@@ -89,7 +93,7 @@ li{
 	background-image: url(gazed.png);
 	background-size: 100% 100%;
 	top: 5%;
-	left: 5%;
+	left: 0;
 	
 
 }
@@ -97,8 +101,8 @@ li{
 		position:absolute;
 		width: 43%;
 		height: 20%;
-		top: 40%;
-		left: 20%;
+		top: 20%;
+		left: 10%;
 		color: white;
 		font-size: 1.15em;
 		
@@ -108,8 +112,8 @@ li{
 	position: absolute;
 	color: white;
 	font-size: 2em;
-	top: 100px;
-	left: 40%;
+	top: 10%;
+	left: 70%;
 	text-align: center;
 }
 #title{
