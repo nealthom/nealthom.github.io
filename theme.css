@@ -284,27 +284,32 @@ li a:hover,li a:active{
 }
 #facebook{
 	position: absolute;
-	background-image: url(facebook.png);
-	height: 256px;
-	width: 256px;
+	top: 45px;
 	left: 700px;
+	background-image: url(facebook.png);
+	height: 100px;
+	width: 100px;
+	
+	
 	background-size: 100% 100%;
 
 }
 #twitter{
 	position: absolute;
 	background-image: url(twitter.png);
-	height: 256px;
-	width: 256px;
-	left: 956px;
+	height: 100px;
+	width: 100px;
+	left: 700px;
+	top: 145px;
 	background-size: 100% 100%;
 }
 #github{
 	position: absolute;
 	background-image: url(github.png);
-	height: 256px;
-	width: 256px;
-	left: 1212px;
+	height: 100px;
+	width: 100px;
+	left: 700px;
+	top: 245px;
 	background-size: 100% 100%;
 
 
@@ -312,9 +317,9 @@ li a:hover,li a:active{
 #linkedin{
 	position: absolute;
 	background-image: url(linkedin.png);
-	height: 256px;
-	width: 256px;
-	top: 256px;
+	height: 100px;
+	width: 100px;
+	top: 345px;
 	left: 700px;
 	background-size: 100% 100%;
 
@@ -322,10 +327,10 @@ li a:hover,li a:active{
 #email{
 	position: absolute;
 	background-image: url(email.png);
-	height: 256px;
-	width: 256px;
-	top: 256px;
-	left: 956px;
+	height: 100px;
+	width: 100px;
+	top: 445px;
+	left: 700px;
 	background-size: 100% 100%;
 
 
