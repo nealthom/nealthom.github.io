@@ -75,7 +75,7 @@ a:active{color: red;}
 li{
 	list-style: none;
 }
-a:hover,a:active{
+li a:hover,li a:active{
  color:red;
 }
 
@@ -150,15 +150,11 @@ a:hover,a:active{
 	}
 
 .vanish:hover{
-	color: transparent;
-	opacity: 0;
+	background-color: black !important;
 	
 
 }
-.vanish:onclick{
-	color: transparent;
-	opacity: 0;
-}
+
 .it{
 	position: absolute;
 	top: 30%;
@@ -185,14 +181,7 @@ a:hover,a:active{
 	
 }
 
-#i0{
-	
-	
-	z-index: 199;
-	background-image:url("h.png");
-	top:5vh;
-	left: 10vw;;
-}
+
 
 #pi1{
 	
@@ -206,15 +195,7 @@ a:hover,a:active{
 	
 }
 
-#i1{
 
-	
-	z-index: 199;
-	background-image:url("h.png");
-	top: 5vh;
-	left: 30vw;
-	
-}
 
 #pi2{
 	
@@ -228,15 +209,7 @@ a:hover,a:active{
 	
 }
 
-#i2{
-	
-	
-	z-index: 199;
-	background-image:url("h.png");
-	top: 5vh;
-	left: 50vw;
-	
-}
+
 #pi3{
 	
 
@@ -249,15 +222,7 @@ a:hover,a:active{
 	
 }
 
-#i3{
-	
-	
-	z-index: 199;
-	background-image:url("h.png");
-	top: calc( 20vw + 5vh);
-	left: 10vw;
-	
-}
+
 
 #pi4{
 	position: absolute;
@@ -270,15 +235,7 @@ a:hover,a:active{
 	
 }
 
-#i4{
-	position: absolute;
-	
-	z-index: 199;
-	background-image:url("h.png");
-	top: calc( 20vw + 5vh);
-	left: 30vw;
-	
-}
+
 #pi5{
 	position: absolute;
 	
@@ -291,15 +248,7 @@ a:hover,a:active{
 	
 }
 
-#i5{
-	position: absolute;
-	
-	z-index: 199;
-	background-image:url("h.png");
-	top: calc( 20vw + 5vh);
-	left: 50vw;
-	
-}
+
 
 #pi6{
 	position: absolute;
@@ -313,15 +262,7 @@ a:hover,a:active{
 	
 }
 
-#i6{
-	position: absolute;
 
-	z-index: 199;
-	background-image:url("h.png");
-	top:5vh;
-	left: 70vw;
-	
-}
 
 #pi7{
 	position: absolute;
@@ -335,13 +276,58 @@ a:hover,a:active{
 	
 }
 
-#i7{
+
+#social{
+	position:relative;
+
+
+}
+#facebook{
 	position: absolute;
-	
-	z-index: 199;
-	background-image:url("h.png");
-	top:calc( 20vw + 5vh);
-	left: 70vw;
-	
+	background-image: url(facebook.png);
+	height: 256px;
+	width: 256px;
+	left: 700px;
+	background-size: 100% 100%;
+
+}
+#twitter{
+	position: absolute;
+	background-image: url(twitter.png);
+	height: 256px;
+	width: 256px;
+	left: 956px;
+	background-size: 100% 100%;
+}
+#github{
+	position: absolute;
+	background-image: url(github.png);
+	height: 256px;
+	width: 256px;
+	left: 1212px;
+	background-size: 100% 100%;
+
+
+}
+#linkedin{
+	position: absolute;
+	background-image: url(linkedin.png);
+	height: 256px;
+	width: 256px;
+	top: 256px;
+	left: 700px;
+	background-size: 100% 100%;
+
+}
+#email{
+	position: absolute;
+	background-image: url(email.png);
+	height: 256px;
+	width: 256px;
+	top: 256px;
+	left: 956px;
+	background-size: 100% 100%;
+
+
 }
 
