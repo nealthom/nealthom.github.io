@@ -169,6 +169,7 @@ li a:hover,li a:active{
 	position: absolute;
 	height: 20vw;
 	width: 20vw;
+	cursor: pointer;
 	
 }
 #pi0{
@@ -289,7 +290,7 @@ li a:hover,li a:active{
 	background-image: url(facebook.png);
 	height: 100px;
 	width: 100px;
-	
+	cursor:pointer;
 	
 	background-size: 100% 100%;
 
@@ -302,6 +303,7 @@ li a:hover,li a:active{
 	left: 700px;
 	top: 145px;
 	background-size: 100% 100%;
+	cursor:pointer;
 }
 #github{
 	position: absolute;
@@ -311,7 +313,7 @@ li a:hover,li a:active{
 	left: 700px;
 	top: 245px;
 	background-size: 100% 100%;
-
+	cursor:pointer;
 
 }
 #linkedin{
@@ -322,6 +324,7 @@ li a:hover,li a:active{
 	top: 345px;
 	left: 700px;
 	background-size: 100% 100%;
+	cursor:pointer;
 
 }
 #email{
@@ -332,6 +335,7 @@ li a:hover,li a:active{
 	top: 445px;
 	left: 700px;
 	background-size: 100% 100%;
+	cursor:pointer;
 
 
 }
