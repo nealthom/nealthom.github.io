@@ -1,85 +1,349 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="theme.css">
-<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">  
-<link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet"> 
+body,html {
 
-
-
-</head>
-
-<body>
-
-<div id="nav">
-	<ul>		
-		<li id="nava"><a href="#about">About</a></li>
-		<li id="navp"><a href="#portfolio">Portfolio</a></li>
-		<li id="navc"><a href="#contact">Contact</a></li>
-	</ul>
-	<div id="title">Thomas Neal</div>
-</div>
-
-<div id="page1">
-  <a id="about" class="smooth"></a>
+   margin: 0;
+   padding: 0;
+   max-width: 100%;
+   max-height: 100%;
+   background-color: white;
+   font-family: 'Suez One', serif;
+	height: 100%;
 	
-	<div id="aboutpic"></div>
-	<div id="abouttitle">I am a Stargazer.<br>Coder.<br>Nature Lover.</div>
-	<div id="aboutme">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
-    
-</div>
-<div id="page2">
-  <a  id="portfolio" class="smooth"></a>
+}
+
+#page1{
+	position:relative;
+	height: 100%;
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
 	
-	<div id="pi0" class="vanish blocks" onclick="window.open('https://nealthom.github.io/tictactoe');"><span class="it">Tic Tac Toe</a><span></div>
 	
-	<div id="pi1" class="vanish blocks" onclick="window.open('https://nealthom.github.io/tribute');"><span class="it">Tribute<span></div>
+ 	}
+
+
+
+#page2{
+	
+	position: relative;
+	height: 100%;	
+	background-size:  100% 100%;
+	background-color: white;
+	max-width: 100%;
+	max-height: 100%;
+
+	
+	
+}
+
+
+
+#page3{
+	position:relative;
+	height: 100%;
+	background-color: white;
+	max-height: 100%;
+	
+	
+
+	
+}
+#nav{
+	z-index: 1001;
+	height: 14%;
+	width: 100%;
+	background-color: #18121E;
+	position: fixed;
+	top: 86%;
   
-	<div id="pi2" class="vanish blocks" onclick="window.open('https://nealthom.github.io/pomodoro');"><span class="it">Pomodoro<span></div>
-  
-	<div id="pi3" class="vanish blocks" onclick="window.open('https://nealthom.github.io/calculator');"><span class="it">Calculator<span></div>
-  
-	<div id="pi4" class="vanish blocks" onclick="window.open('https://nealthom.github.io/quotes');"><span class="it">Quotes<span></div>
-   
-	<div id="pi5" class="vanish blocks" onclick="window.open('http://codepen.io/nealthom/full/vKjrGW/');"><span class="it">Local Weather<span></div>
-   
-  	<div id="pi6" class="vanish blocks"><span class="it"><span></div>
-	<div id="pi7" class="vanish blocks" onclick="window.open('https://nealthom.github.io/wikiviewer');"><span class="it">Wiki Viewer<span></div>
- 
+	color:white;
+	
+}
+.smooth{
+	position:absolute;
+
+}
+
+
+a{
+	text-decoration: none;
+	color:white;
+}
+a:visited{
+	color: white;
+	}
+a:active{color: red;}
+li{
+	list-style: none;
+}
+li a:hover,li a:active{
+ color:red;
+}
+
+
+#pic{
+	position: absolute;
+	width: 500px;
+	height: 666px;
+	background-image: url(me20.png);
+	background-size: 100% 100%;
+	top: 5%;
+	left: 10%;
+
+
+}
+#aboutpic{
+	position: absolute;
+	width: 100%;
+	height: 566px;
+	background-image: url(gazed.png);
+	background-size: 100% 100%;
+	top: 10%;
+	left: 0;
+	
+
+}
+#aboutme{
+		position:absolute;
+		width: 43%;
+		height: 20%;
+		top: 20%;
+		left: 10%;
+		color: white;
+		font-size: 1.5em;
+		
+
+}
+#abouttitle{
+	position: absolute;
+	color: white;
+	font-size: 2em;
+	top: 15%;
+	left: 70%;
+	text-align: center;
+}
+#title{
+	position:absolute;
+	top: -35%;
+	left: 0;
+	font-size: 3em;
+	background-color: red;
+	width: 100%;
+	text-align: center;
+}
+#nava{
+		position:absolute;
+		top:50%;
+		left: 20%;
+		font-size: 2em;
+	}
+#navp{
+		position:absolute;
+		top:50%;
+		left: 45%;
+		font-size: 2em;
+	}
+#navc{
+		position:absolute;
+		top:50%;
+		left: 70%;
+		font-size: 2em;
+	}
+
+.vanish:hover{
+	background-color: black !important;
+	
+
+}
+
+.it{
+	position: absolute;
+	top: 30%;
+	left: 0;
+	display: inline-block;
+	width: 20vw;
+	text-align: center;
+	font-size: 2em;
+	
+}
+.blocks{
+	position: absolute;
+	height: 20vw;
+	width: 20vw;
+	cursor: pointer;
+	
+}
+#free{
+	cursor: pointer;
+	color:red;
+}
+#free:hover{
+	color: blue;
+}
+#pi0{
+
+	background-color: red;
+	color: white;
+	z-index: 200;
+	top: 5vh;
+	left: 10vw;
+	
+}
+
+
+
+#pi1{
 	
 	
-
-</div>
- 
-<div id="page3">
-  <a  id="contact" class="smooth"></a>
-	<div id="pic"></div>
-	<div id="social">
-	<div id="facebook" onclick="window.open('https://www.facebook.com/thomas.b.neal');"></div>
-	<div id="twitter" onclick="window.open('https://twitter.com/nealthom');"></div>
-	<div id="github" onclick="window.open('https://github.com/nealthom');"></div>
-	<div id="linkedin" onclick="window.open('https://www.linkedin.com/in/thomas-neal-30891ba');"></div>
-	<div id="email" onclick="location.href='mailto:nealthom@gmail.com';"></div>
-	</div>
-</div>
- 
-
- 
+	background-color: blue;
+	color: white;
+	text-align: center;
+	top: 5vh;
+	left: 30vw;
+	z-index: 200;
+	
+}
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
-$(document).on('click', 'a', function(event){
-    event.preventDefault();
+#pi2{
+	
+	
+	background-color: purple;
+	color: white;
+	text-align: center;
+	top: 5vh;
+	left: 50vw;
+	z-index: 200;
+	
+}
 
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 1000);
-});
-</script>
-</body>
-</html>
+
+#pi3{
+	
+
+	background-color: green;
+	color: white;
+	text-align: center;
+	top: calc( 20vw + 5vh);
+	left: 10vw;
+	z-index: 200;
+	
+}
+
+
+
+#pi4{
+	position: absolute;
+	background-color: orange;
+	color: white;
+	text-align: center;
+	top: calc( 20vw + 5vh);
+	left: 30vw;
+	z-index: 200;
+	
+}
+
+
+#pi5{
+	position: absolute;
+	
+	background-color: red;
+	color: white;
+	text-align: center;
+	top: calc( 20vw + 5vh);
+	left:50vw;
+	z-index: 200;
+	
+}
+
+
+
+#pi6{
+	position: absolute;
+	
+	background-color: green;
+	color: white;
+	text-align: center;
+	top: 5vh;
+	left: 70vw;
+	z-index: 200;
+	
+}
+
+
+
+#pi7{
+	position: absolute;
+
+	background-color: blue;
+	color: white;
+	text-align: center;
+	top: calc( 20vw + 5vh);
+	left: 70vw;
+	z-index: 200;
+	
+}
+
+
+#social{
+	position:relative;
+
+
+}
+#facebook{
+	position: absolute;
+	top: 45px;
+	left: 700px;
+	background-image: url(facebook.png);
+	height: 100px;
+	width: 100px;
+	cursor:pointer;
+	
+	background-size: 100% 100%;
+
+}
+#twitter{
+	position: absolute;
+	background-image: url(twitter.png);
+	height: 100px;
+	width: 100px;
+	left: 700px;
+	top: 145px;
+	background-size: 100% 100%;
+	cursor:pointer;
+}
+#github{
+	position: absolute;
+	background-image: url(github.png);
+	height: 100px;
+	width: 100px;
+	left: 700px;
+	top: 245px;
+	background-size: 100% 100%;
+	cursor:pointer;
+
+}
+#linkedin{
+	position: absolute;
+	background-image: url(linkedin.png);
+	height: 100px;
+	width: 100px;
+	top: 345px;
+	left: 700px;
+	background-size: 100% 100%;
+	cursor:pointer;
+
+}
+#email{
+	position: absolute;
+	background-image: url(email.png);
+	height: 100px;
+	width: 100px;
+	top: 445px;
+	left: 700px;
+	background-size: 100% 100%;
+	cursor:pointer;
+
+
+}
+
